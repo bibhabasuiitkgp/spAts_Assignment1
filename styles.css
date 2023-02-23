@@ -102,13 +102,13 @@ nav ul li a:hover{
     
 
 }
-h1{
+h2{
     font-size: 100px;
     padding-left: 150px;
     float: inline-end;
     font-family: cursive;
 }
-p{
+h3{
     font-size: 30px;
     padding-left: 100px;
     /* font-family: "Brush Script MT",cursive; */
@@ -119,6 +119,70 @@ p{
     float: left;
     margin-top: 60px;
 } */
+.heading{
+    display: flex;
+    padding-left: 20px;
+    /* padding-bottom: 5px; */
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,rgb(241, 229, 229),rgb(17, 111, 243));
+    width: 1500px;
+    height: 100px;
+}
+#heading{
+    font-size: 40px;
+    /* float: left; */
+    /* padding: 20px; */
+    padding-left: 500px;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 3000px;
+    margin-left: 10px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 300px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+  }
+  
+  /* Clear floats after image containers
+  .card::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+
+
+
 
     
 
