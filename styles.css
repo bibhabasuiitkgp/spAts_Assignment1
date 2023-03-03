@@ -48,6 +48,7 @@ nav ul li a{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* padding-bottom: 3px;     */
+    text-decoration: none;
 }
 nav ul li a:hover{
     color: rgb(7, 240, 62);
@@ -62,14 +63,14 @@ nav ul li a:hover{
 /* .image-container img { */
     /* height:100%; */
 /* } */ 
-.openMenu{
+/* .openMenu{
     font-size: 30px;
     color: rgb(231, 231, 244);
     float: right;
     padding-top: 10px;
     padding-right: 10px;
-    cursor: pointer;
-}
+    cursor: pointer; */
+/* } */
 @media(max-width:858px){
     .mainMenu{
         height: 100vh;
@@ -147,6 +148,13 @@ h3{
     text-align: center;
     font-family: arial;
   }
+  .card-image {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
   
   .price {
     color: grey;
@@ -222,6 +230,9 @@ h3{
     content: "";
     clear: both;
     display: table;
+  }
+  h1{
+    font-size: 20px;
   }
 
 
