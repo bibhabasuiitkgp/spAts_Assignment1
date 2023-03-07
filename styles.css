@@ -189,7 +189,7 @@ h3{
   }
   .example{
     width: 1000px;
-    
+    /* height: 100px; */
     padding-left: 60vh;
   }
   
@@ -219,12 +219,12 @@ h3{
   
   /* Style the search field */
   form.example input[type=text] {
-    padding: 10px;
+    padding: 13px;
     font-size: 17px;
     border: 1px solid grey;
     float: left;
     width: 80%;
-    background: #37e969;
+    background: #e7efea;
   }
   
   /* Style the submit button */
@@ -232,7 +232,7 @@ h3{
     float: left;
     width: 20%;
     padding: 10px;
-    background-image: linear-gradient(to right,rgb(211, 234, 9),rgb(12, 227, 242));
+    /* background-image: linear-gradient(to right,rgb(211, 234, 9),rgb(12, 227, 242)); */
     color: white;
     font-size: 17px;
     border: 1px solid grey;
@@ -241,7 +241,7 @@ h3{
   }
   
   form.example button:hover {
-    background: #0612ea;
+    background: #0adc23;
   }
   
   /* Clear floats */
@@ -366,8 +366,8 @@ h4{
 /* Style all font awesome icons */
 .fa {
   /* padding-top: 20px; */
-  padding: 20px;
-  font-size: 30px;
+  padding: 5px;
+  font-size: 20px;
   width: 50px;
   text-align: center;
   text-decoration: none;
